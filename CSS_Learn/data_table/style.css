@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+input, button{
+    margin: 20px;
+}
+
+h4{
+    margin-top: 20px;
+}

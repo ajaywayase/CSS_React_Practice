@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <h1>Data Table</h1>
+        <input id="search-data" type="text" placeholder="search data" oninput="searchData()"/>
+        <div>
+            <button onclick="sortAsc()">Sort By Age ASC</button>
+            <button onclick="sortDesc()">Sort By Age DESC</button>
+        </div>
+        
+        <table id="table" class="table">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <!-- <tr>
+                <td>Ajay</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Ajay</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Ajay</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Ajay</td>
+                <td>25</td>
+            </tr> -->
+        </table>
+
+        <h4>Add new Entry</h4>
+        <div>
+            <input id="new-name" type="text" placeholder="Enter Name">
+            <input id="new-age" type="number" placeholder="Enter Age">
+        </div>
+        <button onclick="addNewData()">Add New</button>
+        
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

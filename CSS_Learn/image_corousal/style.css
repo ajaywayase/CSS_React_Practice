@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slider img{
+    width: 100%;
+    display: none;
+    height: 100%;
+    /* width: 700px; */
+}
+
+img.displaySlide{
+    display: block;
+}
+
+.slider button{
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border: none;
+}
+
